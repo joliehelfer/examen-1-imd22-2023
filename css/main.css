@@ -65,6 +65,18 @@ video {
   text-transform: uppercase;
 }
 
+.citation {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 28px; /* 93.333% */
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+}
+
 .news {
   color: #000;
   font-family: "Noto Serif", serif;
