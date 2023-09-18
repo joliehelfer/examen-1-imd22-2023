@@ -44,6 +44,27 @@ video {
   vertical-align: text-top;
 }
 
+.date-country {
+  color: #000;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px; /* 100% */
+}
+
+.name-artist {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px; /* 133.333% */
+  text-transform: uppercase;
+}
+
 .news {
   color: #000;
   font-family: "Noto Serif", serif;
