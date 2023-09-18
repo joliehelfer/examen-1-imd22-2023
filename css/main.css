@@ -23,6 +23,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  width: 428px;
 }
 
 a {
@@ -34,4 +35,14 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+.italic-bold {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 22px; /* 146.667% */
+  text-transform: uppercase;
 }
