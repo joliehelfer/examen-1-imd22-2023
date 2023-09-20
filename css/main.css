@@ -130,7 +130,7 @@ main .container-programme hr {
   border: 3px solid var(--violet);
 }
 
-main .section-program h2 {
+main .container-program h2 {
   font-family: Noto Serif;
   font-size: 50px;
   font-style: normal;
@@ -139,20 +139,20 @@ main .section-program h2 {
   text-align: center;
 }
 
-main .section-program h3 {
+main .container-program h3 {
   font-family: Nunito Sans;
   font-size: 18px;
   line-height: 24px;
 }
 
-main .section-program h3,
-main .section-program h4,
-main .section-program p {
+main .container-program h3,
+main .container-program h4,
+main .container-program p {
   margin: 0;
   margin-bottom: 20px;
 }
 
-.citation {
+main .citation {
   color: #000;
   text-align: center;
   font-family: Nunito Sans;
