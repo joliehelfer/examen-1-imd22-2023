@@ -77,12 +77,20 @@ header p {
   line-height: 24px;
 }
 
-header nav {
+header nav a {
   color: var(--white);
   font-size: 18px;
   text-decoration: none;
   text-align: center;
   margin: 10px;
+}
+
+header nav {
+  padding: 10px;
+  background: var(--black);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 main h2 {
@@ -130,26 +138,45 @@ main .container-programme hr {
   border: 3px solid var(--violet);
 }
 
-main .container-program h2 {
-  font-family: Noto Serif;
-  font-size: 50px;
+main .border h4 {
+  font-size: 15px;
+  font-family: "Noto Serif";
   font-style: normal;
   font-weight: 300;
-  text-transform: uppercase;
-  text-align: center;
 }
 
-main .container-program h3 {
+main .border h3 {
   font-family: Nunito Sans;
   font-size: 18px;
   line-height: 24px;
 }
 
-main .container-program h3,
-main .container-program h4,
-main .container-program p {
+main .border h3,
+main .border h4,
+main .border p {
   margin: 0;
   margin-bottom: 20px;
+}
+
+main .container-programme p {
+  font-size: 15px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 300;
+}
+
+main .see-full-programme {
+  height: 55px;
+  margin: 30px 77px;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--violet);
+  background: var(--black);
+  border: 0px;
 }
 
 main .citation {
@@ -162,6 +189,18 @@ main .citation {
   line-height: 28px; /* 93.333% */
   letter-spacing: -1.5px;
   text-transform: uppercase;
+  padding: 20px;
+  background-color: var(--green);
+}
+
+main .guardian {
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: var(--green);
+  padding-bottom: 10px;
 }
 
 .news {
