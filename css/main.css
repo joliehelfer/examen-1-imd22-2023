@@ -290,12 +290,3 @@ main .container-opportunities .box {
   font-style: italic;
   text-transform: uppercase;
 }
-
-footer {
-  padding: 20px 20px 110px 20px;
-  color: var(--grey);
-  text-align: center;
-  font-family: Nunito Sans;
-  text-transform: uppercase;
-  background: var(--black);
-}
