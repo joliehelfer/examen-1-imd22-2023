@@ -259,3 +259,43 @@ main .container-news p {
   line-height: 22px; /* 146.667% */
   text-transform: uppercase;
 }
+
+main .container-opportunities h2 {
+  margin: 0;
+  padding: 20px;
+  background: var(--violet);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  letter-spacing: -2.5px;
+  text-transform: uppercase;
+}
+
+main .container-opportunities-options {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  padding: 0 0 60px 0;
+}
+
+main .container-opportunities .box {
+  width: 50%;
+  padding: 20px 10px;
+  border: 1px solid var(--black);
+  background: var(--green);
+  font-family: Nunito Sans;
+  font-weight: 800;
+  line-height: 24px;
+  font-size: 20px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+footer {
+  padding: 20px 20px 110px 20px;
+  color: var(--grey);
+  text-align: center;
+  font-family: Nunito Sans;
+  text-transform: uppercase;
+  background: var(--black);
+}
