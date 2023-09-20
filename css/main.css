@@ -125,41 +125,29 @@ main .container-programme .border {
   height: 100%;
 }
 
-main .container-programme .date-country {
-  color: #000;
-  text-align: center;
-  font-family: "Noto Serif";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 15px; /* 100% */
-}
-
 main .container-programme hr {
   margin: 0;
   border: 3px solid var(--violet);
 }
 
-main .name-artist {
-  color: #000;
-  text-align: center;
-  font-family: Nunito Sans;
-  font-size: 18px;
+main .section-program h2 {
+  font-family: Noto Serif;
+  font-size: 50px;
   font-style: normal;
-  font-weight: 800;
-  line-height: 24px; /* 133.333% */
+  font-weight: 300;
   text-transform: uppercase;
+  text-align: center;
 }
 
-main
-  .container-programme
-  .name-artist
-  main
-  .container-programme
-  .date-country
-  main
-  .container-programme
-  p {
+main .section-program h3 {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+main .section-program h3,
+main .section-program h4,
+main .section-program p {
   margin: 0;
   margin-bottom: 20px;
 }
