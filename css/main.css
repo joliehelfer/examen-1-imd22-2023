@@ -203,6 +203,44 @@ main .guardian {
   padding-bottom: 10px;
 }
 
+main .container-news {
+  padding: 30px 20px 60px 20px;
+  background: var(--beige);
+}
+
+main .container-news h2 {
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+main .container-news .news-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+main .container-news .suggestion {
+  width: 49%;
+  background: var(--white);
+  border-radius: 20px;
+}
+
+main .container-news img {
+  border-radius: 20px 20px 0 0;
+}
+
+main .container-news p {
+  padding: 20px;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px; /* 146.667% */
+}
+
 .news {
   color: #000;
   font-family: "Noto Serif";
